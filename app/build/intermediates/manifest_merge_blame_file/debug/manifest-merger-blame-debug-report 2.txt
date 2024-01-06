@@ -1,0 +1,201 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.vt.cs5254.fancygallery"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <queries>
+13-->[androidx.test:runner:1.5.1] /Users/namaw/.gradle/caches/transforms-3/f9afb82344108c99fb0334d96a11946b/transformed/runner-1.5.1/AndroidManifest.xml:24:5-28:15
+14        <package android:name="androidx.test.orchestrator" />
+14-->[androidx.test:runner:1.5.1] /Users/namaw/.gradle/caches/transforms-3/f9afb82344108c99fb0334d96a11946b/transformed/runner-1.5.1/AndroidManifest.xml:25:9-62
+14-->[androidx.test:runner:1.5.1] /Users/namaw/.gradle/caches/transforms-3/f9afb82344108c99fb0334d96a11946b/transformed/runner-1.5.1/AndroidManifest.xml:25:18-59
+15        <package android:name="androidx.test.services" />
+15-->[androidx.test:runner:1.5.1] /Users/namaw/.gradle/caches/transforms-3/f9afb82344108c99fb0334d96a11946b/transformed/runner-1.5.1/AndroidManifest.xml:26:9-58
+15-->[androidx.test:runner:1.5.1] /Users/namaw/.gradle/caches/transforms-3/f9afb82344108c99fb0334d96a11946b/transformed/runner-1.5.1/AndroidManifest.xml:26:18-55
+16        <package android:name="com.google.android.apps.common.testing.services" />
+16-->[androidx.test:runner:1.5.1] /Users/namaw/.gradle/caches/transforms-3/f9afb82344108c99fb0334d96a11946b/transformed/runner-1.5.1/AndroidManifest.xml:27:9-83
+16-->[androidx.test:runner:1.5.1] /Users/namaw/.gradle/caches/transforms-3/f9afb82344108c99fb0334d96a11946b/transformed/runner-1.5.1/AndroidManifest.xml:27:18-80
+17    </queries>
+18
+19    <supports-screens
+19-->[org.osmdroid:osmdroid-android:6.1.13] /Users/namaw/.gradle/caches/transforms-3/466dfaf5e5b6079d473e7f7b1af87d7a/transformed/osmdroid-android-6.1.13/AndroidManifest.xml:9:5-12:40
+20        android:anyDensity="true"
+20-->[org.osmdroid:osmdroid-android:6.1.13] /Users/namaw/.gradle/caches/transforms-3/466dfaf5e5b6079d473e7f7b1af87d7a/transformed/osmdroid-android-6.1.13/AndroidManifest.xml:10:9-34
+21        android:largeScreens="true"
+21-->[org.osmdroid:osmdroid-android:6.1.13] /Users/namaw/.gradle/caches/transforms-3/466dfaf5e5b6079d473e7f7b1af87d7a/transformed/osmdroid-android-6.1.13/AndroidManifest.xml:11:9-36
+22        android:normalScreens="true" />
+22-->[org.osmdroid:osmdroid-android:6.1.13] /Users/namaw/.gradle/caches/transforms-3/466dfaf5e5b6079d473e7f7b1af87d7a/transformed/osmdroid-android-6.1.13/AndroidManifest.xml:12:9-37
+23
+24    <uses-feature
+24-->[org.osmdroid:osmdroid-android:6.1.13] /Users/namaw/.gradle/caches/transforms-3/466dfaf5e5b6079d473e7f7b1af87d7a/transformed/osmdroid-android-6.1.13/AndroidManifest.xml:14:5-16:36
+25        android:name="android.hardware.location.network"
+25-->[org.osmdroid:osmdroid-android:6.1.13] /Users/namaw/.gradle/caches/transforms-3/466dfaf5e5b6079d473e7f7b1af87d7a/transformed/osmdroid-android-6.1.13/AndroidManifest.xml:15:9-57
+26        android:required="false" />
+26-->[org.osmdroid:osmdroid-android:6.1.13] /Users/namaw/.gradle/caches/transforms-3/466dfaf5e5b6079d473e7f7b1af87d7a/transformed/osmdroid-android-6.1.13/AndroidManifest.xml:16:9-33
+27    <uses-feature
+27-->[org.osmdroid:osmdroid-android:6.1.13] /Users/namaw/.gradle/caches/transforms-3/466dfaf5e5b6079d473e7f7b1af87d7a/transformed/osmdroid-android-6.1.13/AndroidManifest.xml:17:5-19:36
+28        android:name="android.hardware.location.gps"
+28-->[org.osmdroid:osmdroid-android:6.1.13] /Users/namaw/.gradle/caches/transforms-3/466dfaf5e5b6079d473e7f7b1af87d7a/transformed/osmdroid-android-6.1.13/AndroidManifest.xml:18:9-53
+29        android:required="false" />
+29-->[org.osmdroid:osmdroid-android:6.1.13] /Users/namaw/.gradle/caches/transforms-3/466dfaf5e5b6079d473e7f7b1af87d7a/transformed/osmdroid-android-6.1.13/AndroidManifest.xml:19:9-33
+30    <uses-feature
+30-->[org.osmdroid:osmdroid-android:6.1.13] /Users/namaw/.gradle/caches/transforms-3/466dfaf5e5b6079d473e7f7b1af87d7a/transformed/osmdroid-android-6.1.13/AndroidManifest.xml:20:5-22:36
+31        android:name="android.hardware.telephony"
+31-->[org.osmdroid:osmdroid-android:6.1.13] /Users/namaw/.gradle/caches/transforms-3/466dfaf5e5b6079d473e7f7b1af87d7a/transformed/osmdroid-android-6.1.13/AndroidManifest.xml:21:9-50
+32        android:required="false" />
+32-->[org.osmdroid:osmdroid-android:6.1.13] /Users/namaw/.gradle/caches/transforms-3/466dfaf5e5b6079d473e7f7b1af87d7a/transformed/osmdroid-android-6.1.13/AndroidManifest.xml:22:9-33
+33    <uses-feature
+33-->[org.osmdroid:osmdroid-android:6.1.13] /Users/namaw/.gradle/caches/transforms-3/466dfaf5e5b6079d473e7f7b1af87d7a/transformed/osmdroid-android-6.1.13/AndroidManifest.xml:23:5-25:36
+34        android:name="android.hardware.wifi"
+34-->[org.osmdroid:osmdroid-android:6.1.13] /Users/namaw/.gradle/caches/transforms-3/466dfaf5e5b6079d473e7f7b1af87d7a/transformed/osmdroid-android-6.1.13/AndroidManifest.xml:24:9-45
+35        android:required="false" />
+35-->[org.osmdroid:osmdroid-android:6.1.13] /Users/namaw/.gradle/caches/transforms-3/466dfaf5e5b6079d473e7f7b1af87d7a/transformed/osmdroid-android-6.1.13/AndroidManifest.xml:25:9-33
+36
+37    <uses-permission android:name="android.permission.REORDER_TASKS" />
+37-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:24:5-72
+37-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:24:22-69
+38
+39    <application
+39-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:7:5-30:19
+40        android:allowBackup="true"
+40-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:8:9-35
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.8.0] /Users/namaw/.gradle/caches/transforms-3/a114b2c359863627dccec723e49896f7/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+42        android:dataExtractionRules="@xml/data_extraction_rules"
+42-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:9:9-65
+43        android:debuggable="true"
+44        android:extractNativeLibs="false"
+45        android:fullBackupContent="@xml/backup_rules"
+45-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:10:9-54
+46        android:icon="@mipmap/ic_launcher"
+46-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:11:9-43
+47        android:label="@string/app_name"
+47-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:12:9-41
+48        android:roundIcon="@mipmap/ic_launcher_round"
+48-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:13:9-54
+49        android:supportsRtl="true"
+49-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:14:9-35
+50        android:testOnly="true"
+51        android:theme="@style/Theme.FancyGallery" >
+51-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:15:9-50
+52        <activity
+52-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:17:9-29:20
+53            android:name="edu.vt.cs5254.fancygallery.MainActivity"
+53-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:18:13-41
+54            android:exported="true" >
+54-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:19:13-36
+55            <intent-filter>
+55-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:20:13-24:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:21:17-69
+56-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:21:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:23:17-77
+58-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:23:27-74
+59            </intent-filter>
+60
+61            <meta-data
+61-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:26:13-28:36
+62                android:name="android.app.lib_name"
+62-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:27:17-52
+63                android:value="" />
+63-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:28:17-33
+64        </activity>
+65
+66        <uses-library
+66-->[androidx.window:window:1.0.0] /Users/namaw/.gradle/caches/transforms-3/cbcdf082243d2674654bff4b1a211bcc/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+67            android:name="androidx.window.extensions"
+67-->[androidx.window:window:1.0.0] /Users/namaw/.gradle/caches/transforms-3/cbcdf082243d2674654bff4b1a211bcc/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0] /Users/namaw/.gradle/caches/transforms-3/cbcdf082243d2674654bff4b1a211bcc/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+69        <uses-library
+69-->[androidx.window:window:1.0.0] /Users/namaw/.gradle/caches/transforms-3/cbcdf082243d2674654bff4b1a211bcc/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+70            android:name="androidx.window.sidecar"
+70-->[androidx.window:window:1.0.0] /Users/namaw/.gradle/caches/transforms-3/cbcdf082243d2674654bff4b1a211bcc/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+71            android:required="false" />
+71-->[androidx.window:window:1.0.0] /Users/namaw/.gradle/caches/transforms-3/cbcdf082243d2674654bff4b1a211bcc/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+72
+73        <provider
+73-->[androidx.emoji2:emoji2:1.2.0] /Users/namaw/.gradle/caches/transforms-3/451509645d1a5cebf93c9760dd8167bc/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.2.0] /Users/namaw/.gradle/caches/transforms-3/451509645d1a5cebf93c9760dd8167bc/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+75            android:authorities="edu.vt.cs5254.fancygallery.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.2.0] /Users/namaw/.gradle/caches/transforms-3/451509645d1a5cebf93c9760dd8167bc/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.2.0] /Users/namaw/.gradle/caches/transforms-3/451509645d1a5cebf93c9760dd8167bc/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.2.0] /Users/namaw/.gradle/caches/transforms-3/451509645d1a5cebf93c9760dd8167bc/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.2.0] /Users/namaw/.gradle/caches/transforms-3/451509645d1a5cebf93c9760dd8167bc/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.2.0] /Users/namaw/.gradle/caches/transforms-3/451509645d1a5cebf93c9760dd8167bc/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/namaw/.gradle/caches/transforms-3/b4a9584de18771a44a84afef47057c8a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/namaw/.gradle/caches/transforms-3/b4a9584de18771a44a84afef47057c8a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/namaw/.gradle/caches/transforms-3/b4a9584de18771a44a84afef47057c8a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+83        </provider>
+84
+85        <activity
+85-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:27:9-34:20
+86            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+86-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:28:13-99
+87            android:exported="true"
+87-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:29:13-36
+88            android:theme="@style/WhiteBackgroundTheme" >
+88-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:30:13-56
+89            <intent-filter android:priority="-100" >
+89-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:31:13-33:29
+89-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:31:28-51
+90                <category android:name="android.intent.category.LAUNCHER" />
+90-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:23:17-77
+90-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:23:27-74
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:35:9-42:20
+94            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+94-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:36:13-95
+95            android:exported="true"
+95-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:37:13-36
+96            android:theme="@style/WhiteBackgroundTheme" >
+96-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:38:13-56
+97            <intent-filter android:priority="-100" >
+97-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:31:13-33:29
+97-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:31:28-51
+98                <category android:name="android.intent.category.LAUNCHER" />
+98-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:23:17-77
+98-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:23:27-74
+99            </intent-filter>
+100        </activity>
+101        <activity
+101-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:43:9-50:20
+102            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+102-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:44:13-103
+103            android:exported="true"
+103-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:45:13-36
+104            android:theme="@style/WhiteBackgroundDialogTheme" >
+104-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:46:13-62
+105            <intent-filter android:priority="-100" >
+105-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:31:13-33:29
+105-->[androidx.test:core:1.5.0] /Users/namaw/.gradle/caches/transforms-3/1108fc6590e6f01aafa750751a800a80/transformed/core-1.5.0/AndroidManifest.xml:31:28-51
+106                <category android:name="android.intent.category.LAUNCHER" />
+106-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:23:17-77
+106-->/Users/namaw/Documents/Fall2022/CS5254_MobileApplication/FancyGallery/app/src/main/AndroidManifest.xml:23:27-74
+107            </intent-filter>
+108        </activity>
+109    </application>
+110
+111</manifest>
